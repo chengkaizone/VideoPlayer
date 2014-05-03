@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lance.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme.Light.NoTitleBar"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".FileBrowseActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FilePasteActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+    </application>
+
+</manifest>
